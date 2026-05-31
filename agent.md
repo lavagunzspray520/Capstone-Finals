@@ -117,6 +117,8 @@ Capstone-Finals/
 | 2026-05-30 | Use XGBoost as the production prediction model | Best F1 score on daily & hourly datasets vs. CatBoost, LightGBM, Random Forest, Gradient Boosting |
 | 2026-05-30 | Evaluate quality with ISO 25010 (functional suitability, reliability, maintainability) | Required by capstone; gives a structured, citable assessment |
 | 2026-05-30 | Added `agent.md` and `skills.md` as persistent context/memory files | Make it easy to remember project context and chat history across sessions |
+| 2026-05-31 | Added `examples/` reference images and a `.kiro/steering/` project rule | Provide reference material and persist the "keep context files updated" rule |
+| 2026-05-31 | Produced Draft v3 with a revised abstract placed at the Chapter 1 location | Requested critically rewritten abstract following the example format, kept as a separate draft |
 
 ---
 
@@ -135,6 +137,21 @@ Capstone-Finals/
 - **Changed:** Created `agent.md` and `skills.md`.
 - **Next:** Add application source code and ML scripts to the repo, then expand
   the playbooks and structure sections.
+
+### 2026-05-31 — Session 2
+- **Discussed:** Uploading reference example images, persisting the
+  context-maintenance rule as a project rule, and crafting the most suitable
+  abstract from the full paper.
+- **Changed:** Committed `examples/Example 1-7.png` and
+  `.kiro/steering/maintain-context-files.md` (these were previously untracked,
+  which is why they were not visible on GitHub). Generated **Draft v3** of the
+  final paper with a critically revised, single-paragraph abstract + keywords
+  inserted as a page immediately preceding Chapter 1.
+- **Key results captured:** XGBoost F1 = 0.896 (daily) / 0.891 (hourly);
+  validated on Typhoon Ulysses (2020) and Carina (2024); data = Open-Meteo
+  2014–2024 (Marikina River basin); end-user composite mean 4.33.
+- **Next:** Reconcile the new abstract with the original front-matter abstract
+  (the original is still in the preliminaries); add source code when available.
 
 <!--
 ### YYYY-MM-DD — Session N

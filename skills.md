@@ -91,6 +91,15 @@ What the project requires, and where it shows up.
 - **What alert channels exist?** SMS and email early-warning notifications.
 - **Why agent.md + skills.md?** To make it easy to remember chat history and
   project context across sessions (requested 2026-05-30).
+- **Where are the example images?** `Capstone-Finals/examples/Example 1-7.png`
+  (repo root). They were initially uncommitted/untracked, so they did not appear
+  on GitHub until committed and pushed on 2026-05-31.
+- **What is Draft v3?** A duplicate of the final paper PDF with a revised,
+  single-paragraph abstract + keywords placed at the Chapter 1 location:
+  `Draft v3 (Grammarian) Group 4 AlertoMarikeno - Final Paper.docx.pdf`.
+- **XGBoost concrete scores?** F1 = 0.896 (daily) and 0.891 (hourly); correctly
+  flagged Typhoon Ulysses (2020) at ~99.96% and Carina (2024) with near-perfect
+  confidence.
 
 <!--
 - **[2026-05-30] Q:** ...
